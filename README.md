@@ -41,3 +41,30 @@ Health checks
 - `GET /health` returns `{ ok: true }`.
 
 If you want, I can add a small `systemd` unit or `pm2` example file.
+
+PM2 example
+-----------
+You can run the app with PM2 using the included `ecosystem.config.js`:
+
+```bash
+# install pm2 if needed
+npm install -g pm2
+
+# start the app (from project root)
+pm2 start ecosystem.config.js --env production
+
+# view logs
+pm2 logs discvrai-backend
+
+# ensure pm2 restarts on system boot
+pm2 startup
+pm2 save
+```
+
+Vercel / Frontend notes
+-----------------------
+If you deploy the frontend to Vercel and host the backend separately, set this environment variable in the Vercel project settings:
+
+- `REACT_APP_API_URL` = `https://your-backend.example.com` (no trailing slash)
+
+This ensures the frontend will call your backend's absolute URL instead of relying on the CRA proxy.
