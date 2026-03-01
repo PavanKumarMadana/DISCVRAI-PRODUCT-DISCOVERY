@@ -24,4 +24,6 @@ export async function askBackend(query) {
   return res.json();
 }
 
-export default { fetchProducts, fetchProductById, askBackend };
+const api = { fetchProducts, fetchProductById, askBackend };
+
+export default api;
