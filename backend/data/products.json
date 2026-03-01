@@ -1,0 +1,74 @@
+[
+  {
+    "id": "P001",
+    "name": "Aster Laptop 14",
+    "category": "Laptops",
+    "price": 749.99,
+    "description": "Lightweight 14-inch laptop with 8GB RAM and 256GB SSD.",
+    "tags": ["portable", "work", "everyday"],
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&h=500&fit=crop"
+  },
+  {
+    "id": "P002",
+    "name": "Falcon Gaming Laptop 15",
+    "category": "Laptops",
+    "price": 1199.0,
+    "description": "15-inch laptop with dedicated GPU for gaming and content creation.",
+    "tags": ["gaming", "performance"],
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&h=500&fit=crop"
+  },
+  {
+    "id": "P003",
+    "name": "Wave Buds Pro",
+    "category": "Audio",
+    "price": 129.99,
+    "description": "Wireless earbuds with noise cancellation and long battery life.",
+    "tags": ["audio", "wireless"],
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop"
+  },
+  {
+    "id": "P004",
+    "name": "Vista Monitor 27",
+    "category": "Monitors",
+    "price": 279.5,
+    "description": "27-inch 1440p IPS monitor with 75Hz refresh rate.",
+    "tags": ["display", "productivity"],
+    "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=500&h=500&fit=crop"
+  },
+  {
+    "id": "P005",
+    "name": "CorePhone X",
+    "category": "Phones",
+    "price": 599.0,
+    "description": "Mid-range smartphone with strong battery life and camera.",
+    "tags": ["phone", "camera"],
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500&h=500&fit=crop"
+  },
+  {
+    "id": "P006",
+    "name": "Nimbus Tablet 10",
+    "category": "Tablets",
+    "price": 329.0,
+    "description": "10-inch tablet for streaming and light productivity.",
+    "tags": ["tablet", "media"],
+    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?w=500&h=500&fit=crop"
+  },
+  {
+    "id": "P007",
+    "name": "Orbit Mechanical Keyboard",
+    "category": "Accessories",
+    "price": 89.99,
+    "description": "Compact mechanical keyboard with hot-swappable switches.",
+    "tags": ["keyboard", "gaming", "accessory"],
+    "image": "https://images.unsplash.com/photo-1587812211207-b1e6a7eb768d?w=500&h=500&fit=crop"
+  },
+  {
+    "id": "P008",
+    "name": "Flux Portable Charger",
+    "category": "Accessories",
+    "price": 49.5,
+    "description": "10000mAh fast-charging portable battery pack.",
+    "tags": ["battery", "travel"],
+    "image": "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=500&h=500&fit=crop"
+  }
+]
