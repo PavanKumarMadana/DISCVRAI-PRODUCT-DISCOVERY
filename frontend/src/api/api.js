@@ -1,5 +1,12 @@
 // Centralized API helpers with configurable base URL.
 const BASE = (process.env.REACT_APP_API_URL || '').replace(/\/$/, '');
+if (process.env.NODE_ENV === 'production' && !process.env.REACT_APP_API_URL) {
+  console.warn(
+    'Warning: REACT_APP_API_URL is not set. API calls may fail in production. ' +
+    'Set it to the full URL of your backend API server. ' +
+    'For example: https://your-api.onrender.com'
+  );
+}
 const makeUrl = (path) => (BASE ? `${BASE}${path}` : path);
 
 async function parseJsonOrThrow(res) {
